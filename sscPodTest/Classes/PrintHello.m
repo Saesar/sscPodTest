@@ -14,4 +14,9 @@
 {
     NSLog(@"hello world");
 }
+
+- (void)sayGodBye
+{
+    NSLog(@"sayGodBye");
+}
 @end

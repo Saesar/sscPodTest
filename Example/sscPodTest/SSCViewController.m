@@ -21,6 +21,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     PrintHello* obj = [PrintHello new];
     [obj printHello];
+    [obj sayGodBye];
 }
 
 - (void)didReceiveMemoryWarning

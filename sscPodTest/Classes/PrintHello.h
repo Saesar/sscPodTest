@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PrintHello : NSObject
 - (void)printHello;
+- (void)sayGodBye;
 @end
 
 NS_ASSUME_NONNULL_END
