@@ -7,6 +7,7 @@
 //
 
 #import "SSCViewController.h"
+#import "PrintHello.h"
 
 @interface SSCViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    PrintHello* obj = [PrintHello new];
+    [obj printHello];
 }
 
 - (void)didReceiveMemoryWarning

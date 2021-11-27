@@ -1,0 +1,6 @@
+framework module Pods_sscPodTest_Example {
+  umbrella header "Pods-sscPodTest_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
